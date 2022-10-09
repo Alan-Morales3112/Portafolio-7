@@ -266,10 +266,27 @@ h6{
 
 .underline{
     margin-top: 1.2rem;
+    color: var(--grey);
 }
 
 .underline1{
     margin-top: 1.2rem;
+
+}
+
+.underline1>p{
+    color: var(--grey);  
+}
+
+.company>p{
+    color: var(--grey);
+}
+
+.skill-card>p{
+    color: var(--grey);
+}
+.footer-container{
+    padding: 10px;
 }
 @media screen and (min-width: 600px ) {
     .header-information{
