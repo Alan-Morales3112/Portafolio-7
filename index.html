@@ -10,35 +10,35 @@
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu">
-                <img src="Íconos/menu.svg" alt="" class="nav-icono">
-            </label>
+        <nav class="navbar">
+            <a href="#">AMORALES</a>
     
-            <ul class="nav-menu">
+            <ul class="menu">
                 <li class="nav-item">
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Acerca de mí</a>
+                    <a href="#about">Acerca de mí</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Mis habilidades</a>
+                    <a href="#skill">Mis habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Experiencia</a>
+                    <a href="#experience">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Portafolio</a>
+                    <a href="#projects">Portafolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Contacto</a>
+                    <a href="#contact">Contacto</a>
                 </li>
             </ul>
+            <i class='bx bx-menu'><span>&#8801</span></i>
         </nav>
+        <br>
+        <br>
         <section
-        class="header-information">
+        class="header-information" id="home">
             <img class="foto" src="./Imágenes/fotoooo.jpg" alt="">
             <div class="header-text">
                 <div class="titulo"><h2>Hola, soy Alan</h2>
@@ -58,19 +58,19 @@
     </header>
 
     <main>
-        <section class="section-about">
+        <section class="section-about" id="about">
             <h2>Acerca de mí</h2>
-            <div class="acerca"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse debitis amet necessitatibus doloremque id quasi iste itaque reiciendis, ut porro doloribus vitae officiis non! Recusandae ab est id. Placeat quo, eligendi porro omnis maiores, rerum voluptatibus, qui praesentium quod nihil quis hic. Saepe provident delectus quod itaque.</p><br>
-            
-            
+            <div class="acerca" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse debitis amet necessitatibus doloremque id quasi iste itaque reiciendis, ut porro doloribus vitae officiis non! Recusandae ab est id. Placeat quo, eligendi porro omnis maiores, rerum voluptatibus, qui praesentium quod nihil quis hic. Saepe provident delectus quod itaque.</p><br>
+                <br>
+                <div class="vector"><div class="vector11">
+                    <div class="vector12"></div>
+                </div>
+                </div>
             </div><br>
 
-            <div class="vector"><div class="vector11">
-                <div class="vector12"></div>
-            </div>
-            </div>
+            
             <h2>Mis habilidades</h2>
-            <div class="skill-container">
+            <div class="skill-container" id="skill">
                 <div class="skill-card">
                    <div class="shade"><img src="./Íconos/mobile.svg" alt=""></div><br> 
                     <h6>Mobil app design</h6>
@@ -95,10 +95,10 @@
             </div>
         </section>
         
-        <section class="section-experience">
+        <section class="section-experience" id="experience">
             <h2>Experiencia</h2>
             
-            <div class="experience-container">
+            <div class="experience-container" >
             
             <div class="underline"><p><br>2016-2018</p><hr></div>
             
@@ -130,7 +130,7 @@
             </div>
         </section>
         <div class="portafolio"><h2>Portafolio</h2></div>
-        <section class="section-projects">
+        <section class="section-projects" id="projects">
             
             <div class="img-container">
                 <img src="./Imágenes/ejemplo 1.png" alt="">
@@ -150,7 +150,7 @@
     
     </main>
     <br><br>
-    <footer class="section-about">
+    <footer class="section-about" id="contact">
         <h2>Contacto</h2>
         
         <div class="footer-container">
@@ -173,6 +173,6 @@
         <div class="portafolio"><h6>Hecho con &#9829 en Academlo</h6></div>
     </footer>
 
-   
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
